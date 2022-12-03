@@ -18,3 +18,4 @@ app.use(express.static('website'));
 app.listen(4000, () => console.log("running server on {4000}"));
 //Endpoint Data,GET
 app.get("/importation", (req, res) => {
+    res.send(projectData);
