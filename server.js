@@ -23,3 +23,4 @@ app.get("/importation", (req, res) => {
 //Endpoint Data,POST
 app.post("/exported", (req, res) => {
     projectData["temp"] = req.body.temp;
+    projectData["date"] = req.body.date;
