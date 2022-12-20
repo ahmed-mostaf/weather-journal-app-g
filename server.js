@@ -26,3 +26,4 @@ app.post("/exported", (req, res) => {
     projectData["date"] = req.body.date;
     projectData["feelings"] = req.body.feelings;
     res.send(projectData);
+});
